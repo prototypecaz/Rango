@@ -1,0 +1,101 @@
+/* @import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina+2|Baloo+Paaji+2|Bebas+Neue&display=swap'); */
+
+body {
+    background-color: #232323;
+    font-size: 1.3em;
+    font-family: 'Baloo Paaji 2', cursive;
+}
+
+
+/* color--------------------------------------------- */
+
+.yellow {
+    color: #FFEB3B !important;
+}
+
+.bg-yellow-rgba {
+    background: #ffeb3bc7;
+}
+
+.bg-yellow {
+    background: #FFEB3B;
+}
+
+
+/* link --------------------------------------------- */
+
+a {
+    text-decoration: none !important
+}
+
+a.active {
+    border-bottom: #FFEB3B solid 4px;
+    color: #FFEB3B;
+}
+
+nav ul li a {
+    font-family: 'Bowlby One SC', cursive;
+}
+
+nav ul li a:hover {
+    border-bottom: #FFEB3B solid 4px;
+}
+
+article a[href="#"] {
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 7px 7px 25px 0 rgba(0, 0, 0, 0.35);
+}
+
+
+/* Fonts --------------------------------------------- */
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+/* specials rules--------------------------------------------- */
+
+
+/*Diaporama ---------------------------------------------*/
+
+section#slider {
+    position: relative;
+}
+
+#slider h2 {
+    position: absolute;
+    bottom: 100px;
+    left: 30px;
+}
+
+
+/* Footer------------------------------------------ */
+
+footer div:nth-child(2),
+footer div:nth-child(3) {
+    border-left: #FFEB3B solid 2px;
+}
+
+/*Règles pour les smartphones---------------------------------------------*/
+
+@media screen and (max-width:576px) {
+
+    footer div:nth-child(2),
+    footer div:nth-child(3) {
+        border-left: none;
+        border-top: #FFEB3B solid 2px;
+        padding-top: 10px;
+
+    }
+
+}
+
+
+.test{
+    background-color: #FFEB3B;
+}
+
+.test:active{
+    background-color: red;
+}
